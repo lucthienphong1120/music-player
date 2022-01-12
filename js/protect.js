@@ -42,8 +42,3 @@ jQuery(document).keypress("u", function(e) {
         return true;
     }
 });
-document.body.addEventListener('keydown', event => {
-    if (event.ctrlKey && 'spa'.indexOf(event.key) !== -1) {
-        event.preventDefault()
-    }
-})
