@@ -1,10 +1,28 @@
 var songs = {
     us: [
         {
+            name: 'Summertime',
+            singer: 'Cinnamons',
+            path: './assets/music/us/Summertime-CinnamonsEveningCinema-6046288.mp3',
+            image: './assets/img/us/summertime.jpg'
+        },
+        {
+            name: 'Nevada',
+            singer: 'Vicetone',
+            path: './assets/music/us/Nevada - Vicetone_ Cozi Zuehlsdorff.mp3',
+            image: './assets/img/us/nevada.jpg'
+        },
+        {
             name: 'Lily',
             singer: 'Alan Walker',
             path: './assets/music/us/Lily.mp3',
             image: './assets/img/us/lily.jpg'
+        },
+        {
+            name: 'Monody',
+            singer: 'TheFatRat',
+            path: './assets/music/us/Monody-TheFatRatLauraBrehm-4174394.mp3',
+            image: './assets/img/us/monody.jpg'
         },
         {
             name: 'Lost control',
@@ -13,10 +31,22 @@ var songs = {
             image: './assets/img/us/lost-control.jpg'
         },
         {
+            name: 'Gasoline',
+            singer: 'Halsey',
+            path: './assets/music/us/Gasoline - Halsey.mp3',
+            image: './assets/img/us/gasoline.png'
+        },
+        {
             name: 'Hymn for the weekend',
             singer: 'Coldplay',
             path: './assets/music/us/Hymn For The Weekend.mp3',
-            image: './assets/img/us/Coldplay,_Hymn_for_the_Weekend,_Artwork.jpg'
+            image: './assets/img/us/Hymn_for_the_Weekend.jpg'
+        },
+        {
+            name: 'Sứ Thanh Hoa',
+            singer: 'Jay Chou',
+            path: './assets/music/vn/SuThanhHoa-JayChou_5nhf.mp3',
+            image: './assets/img/vn/song6.png'
         },
         {
             name: 'On my way',
@@ -66,6 +96,12 @@ var songs = {
             path: './assets/music/us/Until You - Shayne Ward.mp3',
             image: './assets/img/us/song7.png'
         },
+        {
+            name: 'Monster',
+            singer: 'Skillet',
+            path: './assets/music/us/Monster - Skillet.mp3',
+            image: './assets/img/us/monster.png'
+        },
     ],
     vn: [
         {
@@ -73,6 +109,48 @@ var songs = {
             singer: 'Hà Anh Tuấn',
             path: './assets/music/vn/thang_may_em_nho_anh.mp3',
             image: './assets/img/vn/thang-may-em-nho-an.jpg'
+        },
+        {
+            name: 'Anh đâu ngờ',
+            singer: 'Nhật Phong',
+            path: './assets/music/vn/AnhDauNgo-NhatPhong-7125639.mp3',
+            image: './assets/img/vn/anhdaungo.jpg'
+        },
+        {
+            name: 'Tháng mấy em nhớ anh',
+            singer: 'Suzie Nguyễn',
+            path: './assets/music/vn/NguoiTheThan-SuzieNguyen-7125531.mp3',
+            image: './assets/img/vn/nguoithethan.jpg'
+        },
+        {
+            name: 'Cô độc vương',
+            singer: 'Thiên Tú',
+            path: './assets/music/vn/CoDocVuong-Gumin-6951236.mp3',
+            image: './assets/img/vn/codocvuong.jpg'
+        },
+        {
+            name: 'Hồng nhan',
+            singer: 'Jack',
+            path: './assets/music/vn/Hồng Nhan - Jack (G5R).mp3',
+            image: './assets/img/vn/hongnhan.jpg'
+        },
+        {
+            name: 'Bạc phận',
+            singer: 'Jack',
+            path: './assets/music/vn/Bạc Phận Remix - Jack (G5R), K-ICM, DJ.mp3',
+            image: './assets/img/vn/bacphan.jpg'
+        },
+        {
+            name: 'Sóng gió',
+            singer: 'Jack',
+            path: './assets/music/vn/SongGioBeat-KICMJackG5R-6136722.mp3',
+            image: './assets/img/vn/songgio.jpg'
+        },
+        {
+            name: 'Bánh mì không',
+            singer: 'Đạt G',
+            path: './assets/music/vn/Banh Mi Khong - DuUyen.mp3',
+            image: './assets/img/vn/banhmikhong.jpg'
         },
         {
             name: 'Bài này chill phết',
@@ -91,12 +169,6 @@ var songs = {
             singer: 'Tăng Phúc',
             path: './assets/music/vn/CHỈ LÀ KHÔNG CÙNG NHAU.mp3',
             image: './assets/img/vn/chi-la-khong-cung-nhau.jpg'
-        },
-        {
-            name: 'Sứ Thanh Hoa',
-            singer: 'Jay Chou',
-            path: './assets/music/vn/SuThanhHoa-JayChou_5nhf.mp3',
-            image: './assets/img/vn/song6.png'
         },
         {
             name: 'Lối nhỏ',
@@ -129,16 +201,16 @@ var songs = {
             image: './assets/img/vn/dungchoanhnua.jpg'
         },
         {
-            name: 'Đài Hoa Cúc',
-            singer: 'Jay Chou',
-            path: './assets/music/vn/Dai Hoa Cuc - Jay Chou.mp3',
-            image: './assets/img/vn/song4.png'
+            name: 'Từng yêu',
+            singer: 'Phan Duy Anh',
+            path: './assets/music/vn/TungYeu-PhanDuyAnh-5989256.mp3',
+            image: './assets/img/vn/tungyeu.png'
         },
         {
-            name: 'Hương Lúa',
-            singer: 'Jay Chou',
-            path: './assets/music/vn/HuongLua-ChauKietLuan_32rfj.mp3',
-            image: './assets/img/vn/song5.png'
+            name: 'Em làm gì tối nay',
+            singer: 'Khắc Việt',
+            path: './assets/music/vn/EmLamGiToiNay-KhacViet-3602434.mp3',
+            image: './assets/img/vn/emlamgitoinay.jpg'
         }
     ],
     love: []
