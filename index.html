@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/protect.js"></script>
+</head>
+
+<body>
+    <div class="player">
+        <!-- Dashboard -->
+        <div class="dashboard">
+            <!-- Header -->
+            <header>
+                <h4>Now playing:</h4>
+                <h2>Music</h2>
+            </header>
+
+            <!-- CD -->
+            <div class="cd">
+                <div class="cd-thumb"></div>
+            </div>
+
+            <div class="volume-container">
+                <div class="volume-btn">
+                    <i class="fas fa-volume-up active"></i>
+                    <i class="fas fa-volume-mute"></i>
+                </div>
+                <input id="volume-progress" class="volume-progress" type="range" value="100" step="1" min="0" max="100">
+            </div>
+
+            <!-- Control -->
+            <div class="control">
+                <!-- repeat -->
+                <div class="btn btn-repeat">
+                    <i class="fas fa-redo"></i>
+                </div>
+                <!-- previous -->
+                <div class="btn btn-prev">
+                    <i class="fas fa-step-backward"></i>
+                </div>
+                <!-- play/pause -->
+                <div class="btn btn-toggle-play">
+                    <i class="fas fa-pause icon-pause"></i>
+                    <i class="fas fa-play icon-play"></i>
+                </div>
+                <!-- next -->
+                <div class="btn btn-next">
+                    <i class="fas fa-step-forward"></i>
+                </div>
+                <!-- random -->
+                <div class="btn btn-random">
+                    <i class="fas fa-random"></i>
+                </div>
+            </div>
+
+            <div class="timing">
+                <span class="timing-left"></span>
+                <input id="time-progress" class="time-progress" type="range" value="0" step="1" min="0" max="100">
+                <span class="timing-right"></span>
+            </div>
+
+            <audio id="audio" src=""></audio>
+        </div>
+
+        <!-- Playlist -->
+        <div class="playlist">
+        </div>
+        <div class="switch-playlist-container">
+            <div class="switch-playlist">
+                <button class="catagory us-song-btn active">US</button>
+                <button class="catagory vn-song-btn">VN</button>
+                <button class="catagory love-song-btn">LOVE</button>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="add-love">
+            <button class="add-love-text">Thêm vào danh sách bài hát yêu thích</button>
+        </div>
+    </div>
+
+    <!-- script js -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
