@@ -105,6 +105,12 @@ var songs = {
     ],
     vn: [
         {
+            name: 'Cô độc vương',
+            singer: 'Thiên Tú',
+            path: './assets/music/vn/CoDocVuong-Gumin-6951236.mp3',
+            image: './assets/img/vn/codocvuong.jpg'
+        },
+        {
             name: 'Tháng mấy em nhớ anh',
             singer: 'Hà Anh Tuấn',
             path: './assets/music/vn/thang_may_em_nho_anh.mp3',
@@ -121,12 +127,6 @@ var songs = {
             singer: 'Suzie Nguyễn',
             path: './assets/music/vn/NguoiTheThan-SuzieNguyen-7125531.mp3',
             image: './assets/img/vn/nguoithethan.jpg'
-        },
-        {
-            name: 'Cô độc vương',
-            singer: 'Thiên Tú',
-            path: './assets/music/vn/CoDocVuong-Gumin-6951236.mp3',
-            image: './assets/img/vn/codocvuong.jpg'
         },
         {
             name: 'Hồng nhan',
