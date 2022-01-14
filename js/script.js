@@ -1,7 +1,13 @@
 var songs = {
     us: [
         {
-            name: 'Summertime',
+            name: 'That girl',
+            singer: 'Olly Murs',
+            path: './assets/music/us/ThatGirl-OllyMurs-6560207.mp3',
+            image: './assets/img/us/thatgirl.jpg'
+        },
+        {
+            name: 'Summer Time',
             singer: 'Cinnamons',
             path: './assets/music/us/Summertime-CinnamonsEveningCinema-6046288.mp3',
             image: './assets/img/us/summertime.jpg'
@@ -45,8 +51,8 @@ var songs = {
         {
             name: 'Sứ Thanh Hoa',
             singer: 'Jay Chou',
-            path: './assets/music/vn/SuThanhHoa-JayChou_5nhf.mp3',
-            image: './assets/img/vn/song6.png'
+            path: './assets/music/us/SuThanhHoa-JayChou_5nhf.mp3',
+            image: './assets/img/us/song6.png'
         },
         {
             name: 'On my way',
@@ -105,6 +111,24 @@ var songs = {
     ],
     vn: [
         {
+            name: 'Tình sầu thiên thu muôn lối',
+            singer: 'Doãn Hiếu',
+            path: './assets/music/vn/TinhSauThienThuMuonLoi-VoDinhHieu-6262177.mp3',
+            image: './assets/img/vn/tinh_sau_thien_thu_muon_loi.jpg'
+        },
+        {
+            name: 'Đế Vương',
+            singer: 'Đình Dũng',
+            path: './assets/music/vn/DeVuong-DinhDungACV-7121634.mp3',
+            image: './assets/img/vn/de vuong.jpg'
+        },
+        {
+            name: 'Buồn của anh',
+            singer: 'Đạt G',
+            path: './assets/music/vn/BuonCuaAnhBeat-DatGKICMMasew-5332324.mp3',
+            image: './assets/img/vn/buon-cua-anh.jpg'
+        },
+        {
             name: 'Cô độc vương',
             singer: 'Thiên Tú',
             path: './assets/music/vn/CoDocVuong-Gumin-6951236.mp3',
@@ -117,13 +141,7 @@ var songs = {
             image: './assets/img/vn/thang-may-em-nho-an.jpg'
         },
         {
-            name: 'Anh đâu ngờ',
-            singer: 'Nhật Phong',
-            path: './assets/music/vn/AnhDauNgo-NhatPhong-7125639.mp3',
-            image: './assets/img/vn/anhdaungo.jpg'
-        },
-        {
-            name: 'Tháng mấy em nhớ anh',
+            name: 'Người thế thân',
             singer: 'Suzie Nguyễn',
             path: './assets/music/vn/NguoiTheThan-SuzieNguyen-7125531.mp3',
             image: './assets/img/vn/nguoithethan.jpg'
@@ -145,6 +163,18 @@ var songs = {
             singer: 'Jack',
             path: './assets/music/vn/SongGioBeat-KICMJackG5R-6136722.mp3',
             image: './assets/img/vn/songgio.jpg'
+        },
+        {
+            name: 'Người âm phủ',
+            singer: 'OSAD',
+            path: './assets/music/vn/NguoiAmPhu-MaiQuangNamVRT-5437858.mp3',
+            image: './assets/img/vn/nguoi am phu.jpg'
+        },
+        {
+            name: 'Anh đâu ngờ',
+            singer: 'Nhật Phong',
+            path: './assets/music/vn/AnhDauNgo-NhatPhong-7125639.mp3',
+            image: './assets/img/vn/anhdaungo.jpg'
         },
         {
             name: 'Bánh mì không',
