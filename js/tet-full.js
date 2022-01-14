@@ -45,7 +45,7 @@ var number = 20;
 if (matchMedia('only screen and (max-width: 767px)').matches) {
     number = 10
 }
-let img = './assets/source/hoadao-mini.png';
+let img = './assets/source/hoadao.png';
 var hideTime = 0;
 var distance = 'windowheight'; // windowheight or pageheight;
 var ie4up = (document.all) ? 1 : 0;
