@@ -45,8 +45,7 @@ var number = 20;
 if (matchMedia('only screen and (max-width: 767px)').matches) {
     number = 10
 }
-let img = './assets/source/hoadao.png';
-var color = '#fff';
+let img = './assets/source/hoadao-mini.png';
 var hideTime = 0;
 var distance = 'windowheight'; // windowheight or pageheight;
 var ie4up = (document.all) ? 1 : 0;
@@ -82,7 +81,7 @@ for (i = 0; i < number; ++i) {
     if (ie4up || ns6up) {
         document.write(
             `<div id="dot${i}" style="position:fixed; z-index: ${99+i}; visibility:visible; top:15px; left:15px; pointer-events: none; width:15px">
-                <span style="font-size:18px;color: ${color}">
+                <span style="font-size:18px;">
                     <img src="${img}">
                 </span>
             </div>`
@@ -105,12 +104,12 @@ function TetIE_NS6() {
         document.getElementById('dot' + i).style.top = yp[i] + 'px';
         document.getElementById('dot' + i).style.left = xp[i] + am[i] * Math.sin(dx[i]) + 'px'
     }
-    snowtimer = setTimeout('TetIE_NS6()', 10)
+    timer = setTimeout('TetIE_NS6()', 10)
 }
 
 function hidesnow() {
-    if (window.snowtimer) {
-        clearTimeout(snowtimer)
+    if (window.timer) {
+        clearTimeout(timer)
     }
     for (i = 0; i < number; i++) document.getElementById('dot' + i).style.visibility = 'hidden'
 }
